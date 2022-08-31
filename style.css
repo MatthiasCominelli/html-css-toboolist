@@ -17,6 +17,8 @@ body{
     background-color: white;
 }
 
+
+
 /* Header */
 header{
     padding: 15px ;
@@ -25,7 +27,7 @@ header{
 header img{
     vertical-align: middle;
 }
-header h1{
+h1, h3{
     display: inline-block;
     vertical-align: middle;
 }
@@ -36,5 +38,87 @@ main{
     width: 70%;
     margin: 40px auto;
     border-radius: 10px;
+}
+
+.top {
+    border-bottom: 2px solid rgb(224, 241, 241);
+}
+
+.btn{
+    padding: 6px 10px;
+    border: 2px solid lightgrey;
+    border-radius: 6px;
+    color: lightgray;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-left{
+    background-color: deepskyblue;
+    color: white;
+    border: deepskyblue;
+}
+
+.top, .todolist {
+    padding: 20px 40px;
+}
+
+li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.tag{
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.deepskyblue{
+    background-color: deepskyblue;
+}
+
+.mediumpurple{
+    background-color: mediumpurple;
+}
+
+.mediumaquamarine{
+    background-color: mediumaquamarine;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.fucsia{
+    background-color: #d863a1;
+}
+.green{
+    background-color: #B0C926;
+}
+
+.circle{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border: 2px solid mediumaquamarine;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    }
+
+.cross{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+div.todolist > ul{
+    margin-top: 20px;
 }
 
