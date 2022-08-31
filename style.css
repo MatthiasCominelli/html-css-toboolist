@@ -1,0 +1,40 @@
+/*utility*/
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* general */
+body{
+    background-color: rgb(224, 241, 241);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* color */
+
+.bg-white{
+    background-color: white;
+}
+
+/* Header */
+header{
+    padding: 15px ;
+}
+
+header img{
+    vertical-align: middle;
+}
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Main */
+
+main{
+    width: 70%;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
